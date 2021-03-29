@@ -8,6 +8,8 @@ import Alert from './components/layout/Alert';
 import Dashboard from './components/dashboard/Dashboard';
 import CreateProfile from './components/profile-form/CreateProfile';
 import EditProfile from './components/profile-form/EditProfile';
+import AddExperience from './components/profile-form/AddExperience';
+import AddEducation from './components/profile-form/AddEducation';
 import PrivateRoute from './components/routing/PrivateRoute';
 // redux
 
@@ -43,6 +45,8 @@ return (
           <PrivateRoute Route exact path='/dashboard' component={Dashboard} />
           <PrivateRoute Route exact path='/create-Profile' component={CreateProfile} />
           <PrivateRoute Route exact path='/edit-Profile' component={EditProfile} />
+          <PrivateRoute Route exact path='/add-experience' component={AddExperience} />
+          <PrivateRoute Route exact path='/add-education' component={AddEducation} />
         </Switch>
       </section>
     </Fragment>
