@@ -41,7 +41,7 @@ const EditProfile = ({profile: { profile, loading }, createProfile, getCurrentPr
       instagram: loading ||  !profile.instagram ? '' : profile.instagram
 
     });
-  }, [loading]);
+  }, [loading, getCurrentProfile]);
 
 
 

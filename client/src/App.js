@@ -10,6 +10,9 @@ import CreateProfile from './components/profile-form/CreateProfile';
 import EditProfile from './components/profile-form/EditProfile';
 import AddExperience from './components/profile-form/AddExperience';
 import AddEducation from './components/profile-form/AddEducation';
+import Profiles from './components/profiles/Profiles';
+import Profile from './components/profile/Profile';
+import Posts from './components/posts/Posts';
 import PrivateRoute from './components/routing/PrivateRoute';
 // redux
 
@@ -42,11 +45,14 @@ return (
         <Switch>
           <Route exact path='/register' component={Register} />
           <Route exact path='/login' component={Login} />
+          <Route exact path='/profiles' component={Profiles} />
+          <Route exact path='/profile/:id' component={Profile} />
           <PrivateRoute Route exact path='/dashboard' component={Dashboard} />
           <PrivateRoute Route exact path='/create-Profile' component={CreateProfile} />
           <PrivateRoute Route exact path='/edit-Profile' component={EditProfile} />
           <PrivateRoute Route exact path='/add-experience' component={AddExperience} />
           <PrivateRoute Route exact path='/add-education' component={AddEducation} />
+          <PrivateRoute Route exact path='/posts' component={Posts} />
         </Switch>
       </section>
     </Fragment>
