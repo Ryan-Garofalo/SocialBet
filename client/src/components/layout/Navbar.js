@@ -10,12 +10,12 @@ const Navbar = ({auth: { isAuthenticated, loading }, logout}) => {
     <ul>
       <li>
         <Link to="/profiles">
-            Developers
+            Gamblers
           </Link>
       </li>
       <li>
         <Link to="/posts">
-            Posts
+            Bets
           </Link>
       </li>
       <li>
@@ -38,7 +38,7 @@ const Navbar = ({auth: { isAuthenticated, loading }, logout}) => {
     <ul>
       <li>
         <Link to="/profiles">
-            Developers
+            Gamblers
           </Link>
       </li>
       <li>
@@ -55,7 +55,7 @@ const Navbar = ({auth: { isAuthenticated, loading }, logout}) => {
       <nav className="navbar bg-dark">
         <h1>
           <Link to="/">
-            <i className="fas fa-code"></i> DevConnector
+            <i className="fas fa-code"></i> iBetYu
           </Link>
         </h1>
 

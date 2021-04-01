@@ -1,0 +1,5 @@
+{"mongoURI": "mongodb+srv://rgarofalo:Getmoney100!@socialnetwork.qwu8r.mongodb.net/<dbname>?retryWrites=true&w=majority",
+  "jwtSecret": "mysecrettoken",
+  "githubClientId": "b3d24ab81d62ed8ef1f4",
+  "githubSecret": "8a3dee32b77b27972cb9ad318f0b23bec2f6e12a"
+}

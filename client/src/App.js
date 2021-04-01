@@ -13,6 +13,7 @@ import AddEducation from './components/profile-form/AddEducation';
 import Profiles from './components/profiles/Profiles';
 import Profile from './components/profile/Profile';
 import Posts from './components/posts/Posts';
+import Post from './components/post/Post';
 import PrivateRoute from './components/routing/PrivateRoute';
 // redux
 
@@ -53,6 +54,7 @@ return (
           <PrivateRoute Route exact path='/add-experience' component={AddExperience} />
           <PrivateRoute Route exact path='/add-education' component={AddEducation} />
           <PrivateRoute Route exact path='/posts' component={Posts} />
+          <PrivateRoute Route exact path='/posts/:id' component={Post} />
         </Switch>
       </section>
     </Fragment>
